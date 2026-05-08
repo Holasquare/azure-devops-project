@@ -1,7 +1,7 @@
 const http = require('http');
 
 const server = http.createServer((req, res) => {
-    res.write('Hello from Azure VM 🚀');
+    res.write('Updated via CI/CD 🚀');
     res.end();
 });
 
